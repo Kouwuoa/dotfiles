@@ -1,0 +1,72 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "helix_mode": true,
+  "buffer_font_family": ".ZedMono",
+  "buffer_font_size": 12.0,
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1",
+      "enable_thinking": false,
+    },
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "buffer_line_height": "standard",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Catppuccin Mocha",
+    "dark": "Catppuccin Mocha",
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "vim_mode": false,
+  "terminal": {
+    "font_size": 14.0,
+    "font_family": "Agave Nerd Font",
+  },
+  "project_panel": {
+    "auto_fold_dirs": true,
+  },
+  "preview_tabs": {
+    "enabled": false,
+  },
+  "relative_line_numbers": "enabled",
+  "gutter": {
+    "line_numbers": true,
+  },
+  "minimap": {
+    "show": "never",
+  },
+  "scrollbar": {
+    "axes": {
+      "horizontal": true,
+      "vertical": true,
+    },
+  },
+  "use_system_path_prompts": true,
+  "buffer_font_fallbacks": ["JetBrains Mono", "monospace"],
+  "wrap_guides": [80],
+  "soft_wrap": "none",
+  "base_keymap": "VSCode",
+  "ui_font_size": 12.0,
+  "theme": {
+    "mode": "dark",
+    "light": "Everforest Light Medium (material)",
+    "dark": "Everforest Dark Medium (material)",
+  },
+  "which_key": {
+    "enabled": true,
+    "delay_ms": 50,
+  },
+}
